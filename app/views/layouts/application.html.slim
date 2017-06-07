@@ -6,6 +6,7 @@ html
       = content_for?(:title) ? yield(:title) : 'Rails Prototype'
     meta name="description" content="#{content_for?(:description) ? yield(:description) : 'Rails Prototype'}"
     == stylesheet_link_tag "application", :media => 'all', 'data-turbolinks-track' => 'reload'
+    == javascript_include_tag "https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"
     == javascript_include_tag 'application', 'data-turbolinks-track' => 'reload'
     == csrf_meta_tags
   body
