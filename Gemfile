@@ -24,6 +24,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'devise'
 gem 'devise-i18n'
 gem 'pundit'
+gem 'money-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
